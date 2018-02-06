@@ -1,10 +1,7 @@
-import java.util.Scanner;
+package logic;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Введите размерность матрицы: ");
-        Scanner num = new Scanner(System.in);
-        int n = num.nextInt();
+public class Logic {
+    public static void logic( int n ){
         Integer[][] matrix = new Integer[n][n];
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
